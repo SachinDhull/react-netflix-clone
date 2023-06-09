@@ -25,14 +25,14 @@ const SignUp = () => {
 
                         <div className='max-w-[320px] mx-auto py-16'>
                             <h1 className='text-3xl font-bold'>Sign Up</h1>
-                            <form onSubmit={handleSubmit} className='w-full flex flex-col py-4'>
+                            <form  className='w-full flex flex-col py-4'>
                                 <input  className='p-3 my-2 bg-gray-700 rounded' type='text' placeholder='Email' />
 
                                 <input  className='p-3 my-2 bg-gray-700 rounded' type='text'
                                     placeholder='Password' />
 
-                                    <button className='bg-red-600 py-3 my-6 rounded font-bold'>Sign Up</button>
-                                    <div className='cursor-pointer flex justify-between items-center text-sm text-gray-600'>
+                                    <button onClick={handleSubmit} className='bg-red-600 py-3 my-6 rounded font-bold'>Sign Up</button>
+                                    <div  className='cursor-pointer flex justify-between items-center text-sm text-gray-600'>
                                         <p><input className='mr-2' type='checkbox'/>Remember Me</p>
                                         <p>Need Help?</p>
                                     </div>
