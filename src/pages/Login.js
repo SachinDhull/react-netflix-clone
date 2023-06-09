@@ -28,7 +28,7 @@ const Login = () => {
 
                                 <input onChange={(e)=>{setPassword(e.target.value)}} className='p-3 my-2 bg-gray-700 rounded' type='password'
                                     placeholder='Password'
-                                    autoComplete='current-password' />
+                                     />
 
                                     <button className='bg-red-600 py-3 my-6 rounded font-bold'>Sign In</button>
                                     <div className='cursor-pointer flex justify-between items-center text-sm text-gray-600'>
